@@ -1,21 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>My X3D Cube</title>
-    <!-- Load X_ITE library -->
-    <script type="text/javascript" src="https://github.io"></script>
-    <link rel="stylesheet" type="text/css" href="https://github.io">
+    <title>My First X3D Cube</title>
+    <!-- Include X3DOM CSS and JavaScript -->
+    <link rel='stylesheet' type='text/css' href='https://x3dom.org'>
+    <script type='text/javascript' src='https://x3dom.org'></script>
 </head>
 <body>
-    <X3D width="800px" height="600px">
-        <Scene>
-            <Shape>
-                <Appearance>
-                    <Material diffuseColor="0.8 0.2 0.2"></Material>
-                </Appearance>
-                <Box></Box>
-            </Shape>
-        </Scene>
-    </X3D>
+    <h1>X3D Cube on GitHub</h1>
+    <p>Click and drag to rotate the cube.</p>
+
+    <x3d width='500px' height='400px'>
+        <scene>
+            <transform translation='0 0 0'>
+                <shape>
+                    <appearance>
+                        <material diffuseColor='0.8 0.2 0.2'></material>
+                    </appearance>
+                    <box size='2 2 2'></box>
+                </shape>
+            </transform>
+        </scene>
+    </x3d>
 </body>
 </html>
