@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv='X-UA-Compatible' content='chrome=1' />
+    <script type='text/javascript' src='https://x3dom.org'></script>
+    <link rel='stylesheet' type='text/css' href='https://x3dom.org' />
+</head>
+<body>
+    <x3d width='500px' height='400px'>
+        <scene>
+            <inline url="https://github.com/markobegic/IVKO/blob/main/test_x3d.x3d"></inline>
+        </scene>
+    </x3d>
+</body>
+</html>
